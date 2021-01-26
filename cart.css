@@ -1,0 +1,91 @@
+.cart-number {
+
+    font-family: 'Manrope', sans-serif;
+}
+#cart{
+    z-index: 20;
+
+    position: fixed;
+    left: 0;
+    top: 20;
+
+    background-color: rgb(238, 238, 236);
+    
+    width: 500px;
+    line-height: 2px;
+}
+.cart-name{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.cart-price{
+
+    font-size: 1rem;
+    font-weight: 700;   
+}
+.cart-name, .cart-price{
+    
+    text-align: start;
+}
+.knapp {
+
+    font-family: 'Manrope', sans-serif;
+    color: black;
+    
+}
+#cartbtn {
+
+    font-family: 'Manrope',sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    color: black;
+
+
+    z-index: 10;
+
+    border: none;
+    background-color: rgb(238, 238, 236);
+}
+#cartbtn:hover {
+
+    border-bottom: black solid 3px;
+    border-radius: 0%;
+
+    cursor: pointer;
+}
+.total-price {
+
+    padding: 20;
+    
+    font-family: 'Manrope',sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+
+    text-align: center;
+
+    color: black;
+}
+.removebtn {
+
+    font-size: 1.5rem;
+    border: black solid 2px;
+    
+    border-radius: 7px;
+
+    cursor: pointer;
+    
+    text-align: end;
+
+    position: relative;
+    top: -138px;
+    left: 70%;
+    bottom: 0;
+
+    background-color: transparent;
+
+    
+}
