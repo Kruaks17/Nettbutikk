@@ -92,7 +92,6 @@ function addToCart(){
         cartContainer.appendChild(cartTotalPrice);
 
 }
-
 //totalsum 
 for (let i = 0; i < cartContainer.length; i++) {
     totalPrice += cartContainer[i].price;

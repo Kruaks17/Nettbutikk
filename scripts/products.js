@@ -2,7 +2,7 @@ export let range = [
 
     {
         image: '../images/Vase.jpg',
-        name: 'Handmade Vase',
+        name: 'Handmadenpm rund ev Vase',
         price:350,
         description:'Handmade Vase made with eco freindly materials',
         id: 'product-1'
